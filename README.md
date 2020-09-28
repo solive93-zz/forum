@@ -20,12 +20,12 @@ In order to get the code running on your machine you should:
 In the original project we were asked to build an Alumni platform where all ex-students could share knowledge, job offers, projects, tech interviews/tests. Each sud-team in the Bootcamp has to build a small part of the project. My team assignment was a forum. You can check the original project GitHub repo [here](https://github.com/CodersFactoria2020/Alumni)
 
 ### Requirements
-> MVP
+##### MVP
 * The Forum is only accessible for students. You must be logged in to see the posts.
 * A post can have comments.
 * A post can have a tag to categorize the topic it talks about.
 * Only the post/comment owner can delete and update his own post
 * Twitter-like views. Implement an infinite scroll post list.
-> Extra Features
+##### Extra Features
 * Posts and Comments can have likes.
 * You can share other user content as a post (like re-tweet feature)
