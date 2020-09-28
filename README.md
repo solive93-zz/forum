@@ -3,18 +3,20 @@ This forum app is "remake" (from scratch) of one of our team projects in Factori
 
 ## Usage
 In order to get the code running on your machine you should:
-1. Clone this repo
-2. Install dependencies
-    * ``` composer install ```
-    * ``` npm install ```
-3. Compile assets
-    * ``` npm run watch ```
-4. Run migartions
-    * ``` php artisan migrate ```
-    * *If you want to run the database seeders to have some sample data, run ``` php artisan migrate --seed ```
-    * **I case of adding new database tables or modifying database schema (in dev env), run ``` php artisan migrate:fresh ``` and add the flag ``` --seed ``` to fill the tables
-5. Start server
-    * ``` php artisan serve ```
+1. **Clone this repo**
+2. **Install dependencies**
+ ``` composer install ```
+ ``` npm install ```
+3. **Compile assets**
+ ``` npm run watch ```
+4. **Run migartions**
+ ``` php artisan migrate ```
+*If you want to run the database seeders to have some sample data, run:
+ ``` php artisan migrate --seed ```
+ **I case of adding new database tables or modifying database schema (in dev env), run:
+  ``` php artisan migrate:fresh ``` and add the flag ``` --seed ``` to fill the tables
+5.**Start server**
+ ``` php artisan serve ```
 
 ## About Forum App Project
 In the original project we were asked to build an Alumni platform where all ex-students could share knowledge, job offers, projects, tech interviews/tests. Each sud-team in the Bootcamp has to build a small part of the project. My team assignment was a forum. You can check the original project GitHub repo [here](https://github.com/CodersFactoria2020/Alumni)
